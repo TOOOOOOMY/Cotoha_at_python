@@ -13,14 +13,6 @@ COTOHA® APIは、NTTグループの40年以上にわたる研究成果である
    
 ## デモ
 
-## Description
-
-
-## What is Cotoha?
-""COTOHA is Japanese Native AI originated from Japanese processing technology that NTT Group have developed over 40 years."",  
-cited from the [website](https://api.ce-cotoha.com/contents/about-cotoha.html).  
-  
-## Demo
 
 
 # cotohacall
@@ -29,7 +21,7 @@ Make it easy to use Japanese processing API, [Cotoha](https://www.ntt.com/busine
 
 ## Description
 
-**cotohacall** is a tool to use Cotoha API easily. What you need to use is copy and paste (pip instyall will be available soon)!
+**cotohacall** is a tool to use Cotoha API easily. What you need to use is copy and paste, and pip instyall will be available soon.
 
 ***DEMO:***
 
