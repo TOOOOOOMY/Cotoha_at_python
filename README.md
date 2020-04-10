@@ -9,7 +9,10 @@ Make it easy to use Japanese processing API, [Cotoha](https://www.ntt.com/busine
 by NTT communications.  
 [More details](https://api.ce-cotoha.com/contents/about-cotoha.html)
 
-## Image
+## Demo
+![GifMaker_20200410112914873](https://user-images.githubusercontent.com/45617592/78956943-e043da80-7b1e-11ea-9672-ab4936f189f8.gif)
+  
+### Image
 ![demo](https://user-images.githubusercontent.com/45617592/78956257-a83b9800-7b1c-11ea-8155-8e3a9c46a96a.jpg)
 
 ## Features
