@@ -71,6 +71,28 @@ cotoha_call('summary', sentence, sent_len = x)
 pip install cotoha_at_python
 ```
 
+## Sample
+Ran at the Google Colaboratory.
+```py
+!pip install cotoha_at_python
+
+from cotohacall.main  import cotoha_call
+import os
+
+sentence = '日本語の高精度な自然言語解析を実現するAPIサービス。NTTグループの40年以上の研究成果を活かした自然言語解析技術をCOTOHA APIでお手軽にご利用いただけます。'
+cotoha_call('keyword', sentence)
+
+# Return
+"""
+[{'form': '高精度', 'score': 20.0},
+ {'form': '実現', 'score': 16.8278},
+ {'form': 'お手軽', 'score': 10.8133},
+ {'form': '研究成果', 'score': 10.0},
+ {'form': 'cotoha api', 'score': 10.0}]
+"""
+
+```
+
 ## Link
 [Google colab上でCotohaを超手軽に使うためのコピペ用コード](https://qiita.com/Tommyyyyyyy/items/60f11a36c3a0fa789fd9)
 
