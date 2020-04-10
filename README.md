@@ -51,6 +51,7 @@ sentence_no_2 = '比較対象となる文。'
 ```
   
 5. Select the type below.
+
 | **Type** | ne | parse | coref | keyword | simi | sent_type | user_at | filler | detect | senti | summary |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Mean** | Named Entity Extraction | Parsing | Reference Resolution | Keyword Extraction | Similarity Calculation | Sentence Type Classification | User Attribute Estimation (β) | Filler Removal (β) | Detect Misrecognition (β) | Sentiment Analysis | Summarization |
