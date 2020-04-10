@@ -24,8 +24,11 @@ Make it easy to use Japanese processing API, [Cotoha](https://www.ntt.com/busine
 **cotohacall** is a tool to use Cotoha API easily. What you need to use is copy and paste, and pip instyall will be available soon.
 
 ***DEMO:***
-
-![Demo](https://image-url.gif)
+Keyword extraction
+![sample1](https://user-images.githubusercontent.com/45617592/78955083-25650e00-7b19-11ea-8715-70fb85187bd4.gif)
+  
+Filler removal
+![sample2](https://user-images.githubusercontent.com/45617592/78955095-2a29c200-7b19-11ea-8a99-c4f0e1c13105.gif)
 
 ## Features
 
