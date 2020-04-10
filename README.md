@@ -34,7 +34,7 @@ pip install cotoha_at_python
 2. Import the libraries.
 ```py
 import os
-from cotohacall import main
+from cotohacall.main  import cotoha_call
 ```
   
 3. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html), and set them as the environment variables.
@@ -60,13 +60,13 @@ Detail about these types from [here](https://api.ce-cotoha.com/contents/api-all.
 
 6. Write the code.
 ```py
-main.cotoha_call('SELECTED TYPE', sentence)
+cotoha_call('SELECTED TYPE', sentence)
 
 # For Similarity Calculation
-main.cotoha_call('simi', sentence, sentence_2 = sentence_no_2)
+cotoha_call('simi', sentence, sentence_2 = sentence_no_2)
 
 # For Summarization (x = the number of the sentences, default = 1)
-main.cotoha_call('summary', sentence, sent_len = x)
+cotoha_call('summary', sentence, sent_len = x)
 ```
 
 ## Installation
