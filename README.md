@@ -23,17 +23,13 @@ cited from the [website](https://api.ce-cotoha.com/contents/about-cotoha.html).
 ## Demo
 
 
-# Awesome-name
+# cotohacall
 
-![Badge Status](https://ci-as-a-service)
-
-OverviewOverviewOverview
+Make it easy to use Japanese processing API, [Cotoha](https://www.ntt.com/business/services/application/ai/cotoha-nlp.html). offered by NTT Group.
 
 ## Description
 
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
+**cotohacall** is a tool to use Cotoha API easily. What you need to use is copy and paste (pip instyall will be available soon)!
 
 ***DEMO:***
 
