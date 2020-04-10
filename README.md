@@ -42,11 +42,29 @@ os.environ['CLIENT_SECRET'] = 'Your secret'
   
 3. Copy and paste the code in `cotohacall.py`.
   
-4. 
+4. Prepare the sentence/sentences.
+```py
+sentence = 'えーっと、前線が太平洋上に停滞しています。えー、一方、高気圧が千島近海にあって、あーっと北日本から東日本をゆるやかに覆っています。'
 
+# For Similarity Calculation
+sentence_no_2 = '比較対象となる文。'
+```
+  
+5. Select the type below.
 | **Type** | ne | parse | coref | keyword | simi | sent_type | user_at | filler | detect | senti | summary |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Mean** | Named Entity Extraction | Parsing | Reference Resolution | Keyword Extraction | Similarity Calculation | Sentence Type Classification | User Attribute Estimation (β) | Filler Removal (β) | Detect Misrecognition (β) | Sentiment Analysis | Summarization |
+  
+6. Write the code.
+```py
+cotoha_call('SELECTED TYPE', sentence)
+
+# For Similarity Calculation
+cotoha_call('simi', sentence, sentence_2 = sentence_no_2)
+
+# For Summarization (x = the number of the sentences, default = 1)
+cotoha_call('summary', sentence, sent_len = x)
+```
 
 ## Installation
 
