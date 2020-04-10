@@ -53,8 +53,9 @@ sentence_no_2 = '比較対象となる文。'
 | **Type** | ne | parse | coref | keyword | simi | sent_type | user_at | filler | detect | senti | summary |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Mean** | Named Entity Extraction | Parsing | Reference Resolution | Keyword Extraction | Similarity Calculation | Sentence Type Classification | User Attribute Estimation (β) | Filler Removal (β) | Detect Misrecognition (β) | Sentiment Analysis | Summarization |
+  
 Detail about these types from [here](https://api.ce-cotoha.com/contents/api-all.html).
-
+  
 6. Write the code.
 ```py
 cotoha_call('SELECTED TYPE', sentence)
@@ -71,7 +72,7 @@ cotoha_call('summary', sentence, sent_len = x)
 pip install cotoha_at_python
 ```
 
-## Sample
+## Samples
 Ran at the Google Colaboratory.
 ```py
 !pip install cotoha_at_python
