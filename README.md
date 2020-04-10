@@ -23,8 +23,8 @@ Make it easy to use Japanese processing API, [Cotoha](https://www.ntt.com/busine
 
 **cotohacall** is a tool to use Cotoha API easily. What you need to use is copy and paste, and pip instyall will be available soon.
 
-***DEMO:***  
 
+![demo](https://user-images.githubusercontent.com/45617592/78956257-a83b9800-7b1c-11ea-8155-8e3a9c46a96a.jpg)
 
 ## Features
 
