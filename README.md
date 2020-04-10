@@ -22,7 +22,7 @@ by NTT communications.
 
 ## Requirement
 
-- Python 3.6 >=
+- Python3 or more
 - Cotoha Developers Account (Get it from [here](https://api.ce-cotoha.com/contents/developers/index.html), it's free!)
 
 ## Usage
@@ -33,12 +33,20 @@ import urllib.request
 import json
 import sys
 ```
+  
 2. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html), and set them as the environment variables.
 ```py
 os.environ['CLIENT_ID'] = 'Your ID'
 os.environ['CLIENT_SECRET'] = 'Your secret'
 ```
-3. Copy and paste the code in `cotohacall.py`
+  
+3. Copy and paste the code in `cotohacall.py`.
+  
+4. 
+
+| **Type** | ne | parse | coref | keyword | simi | sent_type | user_at | filler | detect | senti | summary |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Mean** | Named Entity Extraction | Parsing | Reference Resolution | Keyword Extraction | Similarity Calculation | Sentence Type Classification | User Attribute Estimation (β) | Filler Removal (β) | Detect Misrecognition (β) | Sentiment Analysis | Summarization |
 
 ## Installation
 
