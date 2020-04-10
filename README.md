@@ -111,7 +111,14 @@ for api_type in ["ne", "parse", "coref", "keyword", "simi", "sen_type", "user_at
     display(cotoha_call(api_type, sentence_no_1, sentence_2 = sentence_no_2))
     print('\n')
 
-<details><summary>Return</summary><div>
+```
+
+<details><summary>
+```py
+Return
+```
+</summary><div>
+```py
 API type : ne
 [{'begin_pos': 0,
   'class': 'DAT',
@@ -469,9 +476,8 @@ API type : senti
 
 API type : summary
 'えーっと、せっかくだし、美味しいと評判の喫茶店に行ってみよっか。'
-</div></details>
-
 ```
+</div></details>
 
 ## Link
 [Google colab上でCotohaを超手軽に使うためのコピペ用コード](https://qiita.com/Tommyyyyyyy/items/60f11a36c3a0fa789fd9)
