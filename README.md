@@ -71,7 +71,7 @@ main.cotoha_call('summary', sentence, sent_len = x)
 
 ## Installation
 ```py
-!pip install cotoha_at_python
+pip install cotoha_at_python
 ```
 
 ## Link
