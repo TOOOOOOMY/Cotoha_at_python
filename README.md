@@ -31,7 +31,7 @@ pip install cotoha_at_python
 2. Import the libraries.
 ```py
 import os
-from cotohacall.main  import cotoha_call
+from cotohacall.main import cotoha_call
 ```
   
 3. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html), and set them as the environment variables.
