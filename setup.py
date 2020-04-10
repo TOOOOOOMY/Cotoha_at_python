@@ -14,7 +14,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='Cotoha_at_python', # パッケージ名(プロジェクト名)
     packages=['cotohacall'], # パッケージ内(プロジェクト内)のパッケージ名をリスト形式で指定
-    version='1.0.0',
+    version='2.0.0',
     license='MIT',
     install_requires=[], # pip installする際に同時にインストールされるパッケージ名をリスト形式で指定
     author='TOOOOOOMY',
