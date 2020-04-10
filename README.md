@@ -29,10 +29,10 @@ by NTT communications.
 
 1. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html).
 2. Set them as environment variables.
-'''py
+```py
 os.environ['CLIENT_ID'] = 'Your ID'
 os.environ['CLIENT_SECRET'] = 'Your secret'
-'''
+```
 3. Usage
 
 ## Installation
