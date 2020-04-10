@@ -2,7 +2,7 @@
 Make it easy to use Japanese processing API, [Cotoha](https://www.ntt.com/business/services/application/ai/cotoha-nlp.html),  offered by NTT Group.
 
 ## Description
-**cotohacall** is a tool to use Cotoha API easily. What you need to use is copy and paste, and pip instyall will be available soon.
+**cotohacall** is a tool to use Cotoha API easily. What you need to use the API is installing this package and API account.
 
 ### What's Cotoha?
 "COTOHA is Japanese Native AI originated from Japanese processing technology that NTT Group have developed over 40 years."  
@@ -69,7 +69,9 @@ main.cotoha_call('summary', sentence, sent_len = x)
 ```
 
 ## Installation
-Coming soon.
+```py
+!pip install cotoha_at_python
+```
 
 ## Link
 [Google colab上でCotohaを超手軽に使うためのコピペ用コード](https://qiita.com/Tommyyyyyyy/items/60f11a36c3a0fa789fd9)
