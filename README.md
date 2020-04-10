@@ -26,14 +26,19 @@ by NTT communications.
 - Cotoha Developers Account (Get it from [here](https://api.ce-cotoha.com/contents/developers/index.html), it's free!)
 
 ## Usage
-
-1. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html).
-2. Set them as environment variables.
+1. Import the libraries.
+```py
+import os
+import urllib.request
+import json
+import sys
+```
+2. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html), and set them as the environment variables.
 ```py
 os.environ['CLIENT_ID'] = 'Your ID'
 os.environ['CLIENT_SECRET'] = 'Your secret'
 ```
-3. Usage
+3. Copy and paste the code in `cotohacall.py`
 
 ## Installation
 
