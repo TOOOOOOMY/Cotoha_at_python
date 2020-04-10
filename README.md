@@ -18,7 +18,7 @@ by NTT communications.
 ## Features
 - Easy use.
 - You don't have to worry about how to send the request.
-- You can do "Named Entity Extraction", "Parsing", "Reference Resolution", "Keyword Extraction", "Similarity Calculation", "Sentence Type Classification", "User Attribute Estimation (β)", "Filler Removal (β)", "Detect Misrecognition (β)", "Sentiment Analysis", "Summarization" (About [them](https://api.ce-cotoha.com/contents/api-all.html)).
+- You can do Named Entity Extraction, Parsing, Reference Resolution, Keyword Extraction, Similarity Calculation, Sentence Type Classification, User Attribute Estimation (β), Filler Removal (β), Detect Misrecognition (β), Sentiment Analysis, and Summarization (About [them](https://api.ce-cotoha.com/contents/api-all.html)).
 
 ## Requirement
 
