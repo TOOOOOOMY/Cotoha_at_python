@@ -16,23 +16,23 @@ by NTT communications.
 ![demo](https://user-images.githubusercontent.com/45617592/78956257-a83b9800-7b1c-11ea-8155-8e3a9c46a96a.jpg)
 
 ## Features
-
-- Awesome function
-- Awesome UI
-- ...
-
-For more information, see `awesome-tool --help`.
+- Easy use.
+- You don't have to worry about how to send the request.
+- You can do "Named Entity Extraction", "Parsing", "Reference Resolution", "Keyword Extraction", "Similarity Calculation", "Sentence Type Classification", "User Attribute Estimation (β)", "Filler Removal (β)", "Detect Misrecognition (β)", "Sentiment Analysis", "Summarization" (About [them](https://api.ce-cotoha.com/contents/api-all.html)).
 
 ## Requirement
 
-- Requirement
-- Requirement
-- Requirement
+- Python 3.6 >=
+- Cotoha Developers Account (Get it from [here](https://api.ce-cotoha.com/contents/developers/index.html), it's free!)
 
 ## Usage
 
-1. Usage
-2. Usage
+1. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html).
+2. Set them as environment variables.
+'''py
+os.environ['CLIENT_ID'] = 'Your ID'
+os.environ['CLIENT_SECRET'] = 'Your secret'
+'''
 3. Usage
 
 ## Installation
