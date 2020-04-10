@@ -25,7 +25,7 @@ by NTT communications.
 ## Usage
 1. Install the package.
 ```py
-pip install cotoha_at_python
+$ pip install cotoha_at_python
 ```
 
 2. Import the libraries.
@@ -69,7 +69,7 @@ cotoha_call('summary', sentence, sent_len = x)
 
 ## Installation
 ```py
-pip install cotoha_at_python
+$ pip install cotoha_at_python
 ```
 
 ## Samples
