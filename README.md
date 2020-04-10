@@ -26,21 +26,22 @@ by NTT communications.
 - Cotoha Developers Account (Get it from [here](https://api.ce-cotoha.com/contents/developers/index.html), it's free!)
 
 ## Usage
-1. Import the libraries.
+1. Install the package.
+```py
+!pip install cotoha_at_python
+```
+
+2. Import the libraries.
 ```py
 import os
-import urllib.request
-import json
-import sys
+from cotohacall import main
 ```
   
-2. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html), and set them as the environment variables.
+3. Get the Cotoha's CLIENT_ID and CLIENT_SECRET from [here](https://api.ce-cotoha.com/contents/developers/index.html), and set them as the environment variables.
 ```py
 os.environ['CLIENT_ID'] = 'Your ID'
 os.environ['CLIENT_SECRET'] = 'Your secret'
 ```
-  
-3. Copy and paste the code in `cotohacall.py`.
   
 4. Prepare the sentence/sentences.
 ```py
@@ -58,13 +59,13 @@ sentence_no_2 = '比較対象となる文。'
   
 6. Write the code.
 ```py
-cotoha_call('SELECTED TYPE', sentence)
+main.cotoha_call('SELECTED TYPE', sentence)
 
 # For Similarity Calculation
-cotoha_call('simi', sentence, sentence_2 = sentence_no_2)
+main.cotoha_call('simi', sentence, sentence_2 = sentence_no_2)
 
 # For Summarization (x = the number of the sentences, default = 1)
-cotoha_call('summary', sentence, sent_len = x)
+main.cotoha_call('summary', sentence, sent_len = x)
 ```
 
 ## Installation
