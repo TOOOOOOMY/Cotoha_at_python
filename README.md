@@ -68,18 +68,17 @@ cotoha_call('summary', sentence, sent_len = x)
 ```
 
 ## Installation
+Coming soon.
 
+## Link
+[Google colab上でCotohaを超手軽に使うためのコピペ用コード](https://qiita.com/Tommyyyyyyy/items/60f11a36c3a0fa789fd9)
 
-
-## Anything Else
-
-AnythingAnythingAnything
-AnythingAnythingAnything
-AnythingAnythingAnything
+## Reference
+[Cotoha API](https://api.ce-cotoha.com/contents/index.html)  
+[自然言語処理を簡単に扱えると噂のCOTOHA APIをPythonで使ってみた](https://qiita.com/gossy5454/items/83072418fb0c5f3e269f)
 
 ## Author
-
+[TOOOOOOMY](https://github.com/TOOOOOOMY)
 
 ## License
-
-[MIT](http://b4b4r07.mit-license.org)
+MIT
